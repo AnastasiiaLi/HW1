@@ -13,12 +13,13 @@
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 
+
     <servlet>
-        <servlet-name>Customers</servlet-name>
+        <servlet-name>CustomerView</servlet-name>
         <servlet-class>com.example.hw1.CustomersListServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Customers</servlet-name>
+        <servlet-name>CustomerView</servlet-name>
         <url-pattern>/customers</url-pattern>
     </servlet-mapping>
 
